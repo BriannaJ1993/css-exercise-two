@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #000000;
   float: left;
   position: fixed;
   width: 100%;
@@ -60,6 +60,8 @@ article {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
-a:hover { color:#0070BC; } /* mouse over */
+a:hover { color: white;
+ } /* mouse over */
