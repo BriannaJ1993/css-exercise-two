@@ -6,6 +6,31 @@ body {
   font-weight: 400;
 }
 
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin: 0 0 5px 0;
+}
+
+p{
+  font-size: 1em;
+  margin: 15px 0 15px 0;
+}
+
+figcaption{
+  font-size: 0.8em;
+}
+
+.author {
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
 nav {
   background-color: #000000;
   float: left;
@@ -49,7 +74,7 @@ li {
 
 article {
   line-height: normal;
-  font-weight:700;
+  font-weight:400;
   padding-top: 100px;
 }
 
@@ -63,5 +88,4 @@ a {
   color: white;
 }
 
-a:hover { color: white;
- } /* mouse over */
+a:hover {color:pink; } /* mouse over*/
